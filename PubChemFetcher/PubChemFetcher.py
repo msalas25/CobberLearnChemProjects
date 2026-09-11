@@ -1,0 +1,1 @@
+import pubchempy as pcp # Fetch theobromine by name compound = pcp.get_compounds("theobromine", "name")[0] # Print the requested information print("Molecular Weight:", compound.molecular_weight) print("Molecular Formula:", compound.molecular_formula) print("SMILES:", compound.isomeric_smiles)
