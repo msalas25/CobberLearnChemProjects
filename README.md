@@ -9,3 +9,5 @@ through Concordia College.
 Alongside my public coding projects, I’m keeping a private
 ethics portfolio where I reflect on what I’m learning and how
 it’s shaping the kind of scientist I want to become.
+
+In the Error Metrics (Chapter 8) folder, the purpose of this activity is to evaluate how accurately a model makes predictions by comparing the actual and predicted values. The error metrics and graphs help show how well the model performs and identify where the largest prediction errors occur.
