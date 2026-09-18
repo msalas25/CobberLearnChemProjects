@@ -80,3 +80,28 @@ tpsa = Descriptors.TPSA(mol)
 print("Exact Molecular Weight:", exact_weight)
 print("Hydrogen Bond Donors:", h_bond_donors)
 print("TPSA:", tpsa)
+from rdkit import Chem
+from rdkit.Chem import Descriptors
+
+# Test molecules
+molecules = {
+    "Ethanol": "CCO",
+    "Acetic Acid": "CC(=O)O"
+}
+
+for name, smiles in molecules.items():
+
+    # Create molecule object
+    mol = Chem.MolFromSmiles(smiles)
+
+    # Calculate descriptors
+    exact_weight = Descriptors.ExactMolWt(mol)
+    h_bond_donors = Descriptors.NumHDonors(mol)
+    tpsa = Descriptors.TPSA(mol)
+
+    # Print results
+    print("\n", name)
+    print("SMILES:", smiles)
+    print("Exact Molecular Weight:", exact_weight)
+    print("Hydrogen Bond Donors:", h_bond_donors)
+    print("TPSA:", tpsa)
