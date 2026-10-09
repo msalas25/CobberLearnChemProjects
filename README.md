@@ -9,6 +9,8 @@ through Concordia College.
 Alongside my public coding projects, I’m keeping a private
 ethics portfolio where I reflect on what I’m learning and how
 it’s shaping the kind of scientist I want to become.
+
+
 In the Alkane Boiling Point (chapter 3) folder, the purpose of this activity is to use Python and Matplotlib to create a scatterplot showing how the boiling point of the first ten straight-chain alkanes changes as the number of carbon atoms increases. The activity also helps practice using chemical data, creating graphs, and checking whether the observed trend makes scientific sense.
 
 
