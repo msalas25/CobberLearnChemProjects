@@ -1,43 +1,22 @@
 
-import gzip
-import re
-import csv
+import pandas as pd
 
-sql_file = r"C:\Users\Maryl\PycharmProjects\CobberLearnChemProjects\data\invitrodb_v4_3.sql.gz"
+file = r"C:\Users\Maryl\PycharmProjects\CobberLearnChemProjects\data\ERa_BLA_Agonist_ratio_extracted.csv"
 
-# Use a NEW filename so your existing ERa_results.csv stays safe
-output_file = r"C:\Users\Maryl\PycharmProjects\CobberLearnChemProjects\data\ERa_BLA_Agonist_ratio_extracted.csv"
+df = pd.read_csv(file)
 
-target_aeid = 785
-total_records = 0
+print("--- EXTRACTION CHECK ---")
+print("Total records:", len(df))
+print("Duplicate rows:", df.duplicated().sum())
 
-with gzip.open(sql_file, "rt", encoding="utf-8", errors="ignore") as f, \
-     open(output_file, "w", newline="", encoding="utf-8") as out:
+print("\nAEID counts:")
+print(df["aeid"].value_counts(dropna=False))
 
-    writer = csv.writer(out)
-    writer.writerow(["m5id", "m4id", "aeid", "model", "hitc", "fitc"])
+print("\nModel counts:")
+print(df["model"].value_counts(dropna=False).head(20))
 
-    for line in f:
-        if line.startswith("INSERT INTO `mc5`"):
+print("\nFirst 10 rows:")
+print(df.head(10).to_string(index=False))
 
-            # Match records whose third field (aeid) is 785
-            rows = re.findall(
-                r"\((\d+),(\d+),785,'([^']*)',([^,]*),([^,]*),",
-                line
-            )
-
-            for row in rows:
-                writer.writerow([
-                    row[0], row[1], target_aeid,
-                    row[2], row[3], row[4]
-                ])
-
-            total_records += len(rows)
-
-print("Finished extracting ER-alpha BLA data!")
-print("AEID:", target_aeid)
-print("Total records extracted:", total_records)
-print("Saved to:", output_file)
-
-if total_records == 0:
-    print("WARNING: No records found. Check the SQL format and AEID.")
+print("\nLast 10 rows:")
+print(df.tail(10).to_string(index=False))
