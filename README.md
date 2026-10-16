@@ -8,7 +8,7 @@ In MakingDataWhole (Chapter 7), the purpose of this activity is to use Python an
 
 In the Error Metrics (Chapter 8) folder, the purpose of this activity is to evaluate how accurately a model makes predictions by comparing the actual and predicted values. The error metrics and graphs help show how well the model performs and identify where the largest prediction errors occur.
 
-
+In DecisionTreeClassifier (Chapter 9), the purpose of this activity is to use Python, pandas, and scikit-learn to build a decision tree model that predicts whether a molecule is water-soluble based on its molecular weight, hydrogen bond donors, and hydrogen bond acceptors. This helps us understand how machine learning uses chemical properties to classify molecules and visualize the decision-making process.
 
 
 
