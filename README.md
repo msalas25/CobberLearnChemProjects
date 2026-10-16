@@ -30,3 +30,5 @@ Under the Data folder(ERa estradol similarity graph) I used Morgan fingerprints 
 For the ERa estrogen solubility graph, it compares the water solubility of estradiol, estriol, and estrone using reported experimental data from PubChem. 
 
 For ERa logP Vs. solubility graph compares LogP and water solubility in three estrogens to explore how lipophilicity relates to water solubility.
+
+For ERa descriptor activity graph compares average molecular weight, LogP, and TPSA between active and inactive chemicals in the ERα assay dataset.
