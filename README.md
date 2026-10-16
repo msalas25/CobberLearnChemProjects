@@ -27,4 +27,6 @@ Descriptive statistics were calculated for the TOX21_ERa_BLA_Agonist_ratio datas
 Under the Data folder(ERa estradol similarity graph) I used Morgan fingerprints and Tanimoto similarity to compare estradiol with 7,826 other chemicals in the ERα BLA assay dataset. The closest matches included estriol, estrone, and several estradiol derivatives. All 10 top matches were provisionally classified as active. The analysis also showed that fingerprints without chirality cannot distinguish certain stereoisomers.
 
 
-For the ERa estrogen solubility graph, it compares the water solubility of estradiol, estriol, and estrone using reported experimental data from PubChem.
+For the ERa estrogen solubility graph, it compares the water solubility of estradiol, estriol, and estrone using reported experimental data from PubChem. 
+
+For ERa logP Vs. solubility graph compares LogP and water solubility in three estrogens to explore how lipophilicity relates to water solubility.
