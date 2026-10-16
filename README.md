@@ -1,20 +1,35 @@
-AlkaneBoilingPoints This simple code plots the number of car-
-bon atoms in the alkane on the x-axis and the boiling points of
-
-that alkane on the y-axis. It generates a properly labeled graph
-using Matplotlib.
-This is part of the CobberLearnChem Machine Learning course
-through Concordia College.
-
-Alongside my public coding projects, I’m keeping a private
-ethics portfolio where I reflect on what I’m learning and how
-it’s shaping the kind of scientist I want to become.
-
-
 In the Alkane Boiling Point (chapter 3) folder, the purpose of this activity is to use Python and Matplotlib to create a scatterplot showing how the boiling point of the first ten straight-chain alkanes changes as the number of carbon atoms increases. The activity also helps practice using chemical data, creating graphs, and checking whether the observed trend makes scientific sense.
 
+In PubChemFetcher (Chapter 5), the purpose of this activity is to use Python and the PubChemPy library to retrieve chemical information directly from the PubChem database. This includes properties such as molecular weight, molecular formula, and SMILES strings. This helps us understand how to access, extract, and organize chemical data using Python without manually searching through databases.
+
+In Molecule Explorer (Chapter 6) the purpose of this activity is to use Python and RDKit to analyze molecular structures from SMILES strings and calculate chemical properties such as molecular weight, hydrogen bond donors, and TPSA. This helps us understand how molecular structures relate to their chemical properties without relying on pre-built datasets.
+
+In MakingDataWhole (Chapter 7), the purpose of this activity is to use Python and machine learning techniques such as mean imputation, KNN, and Random Forest to predict missing age values in the Titanic dataset. This helps us understand how different imputation methods handle missing data and how to evaluate their accuracy using Mean Absolute Error (MAE).
 
 In the Error Metrics (Chapter 8) folder, the purpose of this activity is to evaluate how accurately a model makes predictions by comparing the actual and predicted values. The error metrics and graphs help show how well the model performs and identify where the largest prediction errors occur.
+
+In DecisionTreeClassifier (Chapter 9), the purpose of this activity is to use Python, pandas, and scikit-learn to build a decision tree model that predicts whether a molecule is water-soluble based on its molecular weight, hydrogen bond donors, and hydrogen bond acceptors. This helps us understand how machine learning uses chemical properties to classify molecules and visualize the decision-making process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 I downloaded the ToxCast/Tox21 dataset and started looking at data related to estrogen receptors.
