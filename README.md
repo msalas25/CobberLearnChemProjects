@@ -32,3 +32,5 @@ For the ERa estrogen solubility graph, it compares the water solubility of estra
 For ERa logP Vs. solubility graph compares LogP and water solubility in three estrogens to explore how lipophilicity relates to water solubility.
 
 For ERa descriptor activity graph compares average molecular weight, LogP, and TPSA between active and inactive chemicals in the ERα assay dataset.
+
+Foe ERa descriptor Box plots comparing molecular weight, LogP, and TPSA distributions between active and inactive ERα assay chemicals.
