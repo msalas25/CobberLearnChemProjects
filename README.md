@@ -10,7 +10,7 @@ In the Error Metrics (Chapter 8) folder, the purpose of this activity is to eval
 
 In DecisionTreeClassifier (Chapter 9), the purpose of this activity is to use Python, pandas, and scikit-learn to build a decision tree model that predicts whether a molecule is water-soluble based on its molecular weight, hydrogen bond donors, and hydrogen bond acceptors. This helps us understand how machine learning uses chemical properties to classify molecules and visualize the decision-making process.
 
-
+In ElementClustering (Chapter 10), the purpose of this activity is to use Python, pandas, Matplotlib, and K-Means clustering to analyze periodic trends among alkali metals. By comparing atomic radius and first ionization energy, we can visualize relationships between elements and group them based on similarities in their chemical properties. This helps us understand how machine learning can identify patterns in the periodic table without predefined classifications.
 
 
 
