@@ -14,7 +14,7 @@ In ElementClustering (Chapter 10), the purpose of this activity is to use Python
 
 
 
-
+In the California Housing Regression (Chapter 16) folder, the purpose of this activity is to use Python and scikit-learn to predict housing prices using different regression models. The activity also uses graphs and R² scores to compare model performance, identify important housing features, and understand how factors such as income, house age, and location affect predicted housing prices.
 
 
 
