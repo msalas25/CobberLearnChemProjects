@@ -12,7 +12,7 @@ In DecisionTreeClassifier (Chapter 9), the purpose of this activity is to use Py
 
 In ElementClustering (Chapter 10), the purpose of this activity is to use Python, pandas, Matplotlib, and K-Means clustering to analyze periodic trends among alkali metals. By comparing atomic radius and first ionization energy, we can visualize relationships between elements and group them based on similarities in their chemical properties. This helps us understand how machine learning can identify patterns in the periodic table without predefined classifications.
 
-
+In the Q-Learning (Chapter 15) folder, the purpose of this activity is to use Python and Gymnasium to train an AI agent to navigate the FrozenLake environment through trial and error. The agent uses a Q-table to learn which actions lead to the best rewards and improve its decision-making over time. After 100,000 training episodes, the agent achieved a 72% success rate, demonstrating how reinforcement learning allows AI to learn from experience.
 
 In the California Housing Regression (Chapter 16) folder, the purpose of this activity is to use Python and scikit-learn to predict housing prices using different regression models. The activity also uses graphs and R² scores to compare model performance, identify important housing features, and understand how factors such as income, house age, and location affect predicted housing prices.
 
