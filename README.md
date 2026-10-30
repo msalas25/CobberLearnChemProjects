@@ -25,7 +25,7 @@ In the Q-Learning (Chapter 15) folder, the purpose of this activity is to use Py
 In the California Housing Regression (Chapter 16) folder, the purpose of this activity is to use Python and scikit-learn to predict housing prices using different regression models. The activity also uses graphs and R² scores to compare model performance, identify important housing features, and understand how factors such as income, house age, and location affect predicted housing prices.
 
 
-
+In the Clustering (Chapter 17) folder, the purpose of this activity is to use Python, pandas, scikit-learn, and Matplotlib to apply K-means clustering to the Iris dataset. The algorithm grouped 150 flowers into three clusters based on four measurements without using species labels. The original model achieved 89.33% cluster purity, while standardizing the features reduced purity to 83.33%. This demonstrates how unsupervised learning can identify patterns in data and how feature scaling can influence clustering results, similar to identifying molecular patterns in chemical datasets.
 
 
 
