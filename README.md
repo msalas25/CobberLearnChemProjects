@@ -28,7 +28,7 @@ In the California Housing Regression (Chapter 16) folder, the purpose of this ac
 In the Clustering (Chapter 17) folder, the purpose of this activity is to use Python, pandas, scikit-learn, and Matplotlib to apply K-means clustering to the Iris dataset. The algorithm grouped 150 flowers into three clusters based on four measurements without using species labels. The original model achieved 89.33% cluster purity, while standardizing the features reduced purity to 83.33%. This demonstrates how unsupervised learning can identify patterns in data and how feature scaling can influence clustering results, similar to identifying molecular patterns in chemical datasets.
 
 
-
+In the CartPole Reinforcement Learning (Chapter 18) folder, the purpose of this activity is to use Python, Gymnasium, and Q-learning to train an agent to balance a pole by selecting actions and receiving rewards. We first tested random actions and then trained the agent for 5,000 episodes to compare performance. The random agent achieved an average reward of 28.30, while the trained agent achieved 381.00. This demonstrates how reinforcement learning can improve decision-making through experience, similar to how an agent can learn to make adjustments during a chemical titration.
 
 
 
